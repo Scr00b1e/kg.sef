@@ -14,6 +14,8 @@ const Header = () => {
                         <li>News</li>
                         <li>Partners</li>
                         <li>Contacts</li>
+                        <li>Terms & Policy</li>
+                        <li>FAQ</li>
                     </ul>
                 </div>
             </div>
