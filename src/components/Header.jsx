@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='container'>
-                <div className='d-flex justify-content-between align-items-center'>
+                <div>
                     <h1>KG.SEF img</h1>
                     <ul>
                         <li>Home</li>
