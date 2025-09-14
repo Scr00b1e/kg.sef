@@ -5,9 +5,9 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='container'>
-                <div>
+                <div className='header-content'>
                     <h1>KG.SEF img</h1>
-                    <ul>
+                    <ul className='header-content'>
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Projects</li>
