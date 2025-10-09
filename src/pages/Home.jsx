@@ -3,13 +3,15 @@ import '../styles/home.scss';
 
 const Home = () => {
     return (
-        <div className='home'>
-            <div className='home_content'>
-                <div className="home_words">
-                    <h1 className='home_title'>Кыргызстанская научно-инженерная ярмарка</h1>
-                    <p className='home_text'>Ярмарка для выдающихся личностей которые хотят увидеть что то новое</p>
+        <div className="container">
+            <div className='home'>
+                <div className='home_content'>
+                    <div className="home_words">
+                        <h1 className='home_title'>Кыргызстанская научно-инженерная ярмарка</h1>
+                        <p className='home_text'>Ярмарка для выдающихся личностей которые хотят увидеть что то новое</p>
+                    </div>
+                    <button className='home_btn'>Участвовать</button>
                 </div>
-                <button className='home_btn'>Участвовать</button>
             </div>
         </div>
     );

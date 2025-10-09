@@ -9,9 +9,16 @@ function App() {
     <>
       <div className='App'>
         <Header/>
-        <div className="container">
-          <Home/>
+
+        <div className="main">
+          <div className="intro">
+            <Home/>
+          </div>
+          <div className="info_section">
+            {/* <Home/> */}
+          </div>
         </div>
+
       </div>
     </>
   )
