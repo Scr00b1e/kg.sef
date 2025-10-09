@@ -8,13 +8,15 @@ const Header = () => {
                 <div className='header-content'>
                     <h1>KG.SEF img</h1>
                     <ul className='header-content'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Projects</li>
-                        <li>News</li>
-                        <li>Partners</li>
-                        <li>Contacts</li>
-                        <li>Terms & Policy</li>
+                        <li>Главная</li>
+                        <li>О нас</li>
+                        <li>Проекты</li>
+                        <li>Новости</li>
+                        <li>Партнеры</li>
+                        <li>Контакты</li>
+                    </ul>
+                    <ul className='header-content'>
+                        <li>Правила и Регламент</li>
                         <li>FAQ</li>
                     </ul>
                 </div>
