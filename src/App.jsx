@@ -3,20 +3,24 @@ import './App.scss'
 import Header from './components/Header'
 import Home from './pages/Home'
 import BlockOne from './pages/BlockOne'
+import InfoOne from './pages/InfoOne'
 
 function App() {
 
   return (
     <>
       <div className='App'>
-        <Header/>
+        <Header />
 
         <div className="main">
           <div className="intro">
-            <Home/>
+            <Home />
           </div>
           <div className="info_section">
-            <BlockOne/>
+            <BlockOne />
+          </div>
+          <div className="infoOne_secton">
+            <InfoOne />
           </div>
         </div>
 

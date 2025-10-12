@@ -1,0 +1,66 @@
+.infoOne {
+    height: 100%;
+    min-height: 917px;
+    width: 100%;
+
+    .container {
+        height: 100%;
+    }
+
+    &_content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+
+        height: 100%;
+        width: 100%;
+
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    &_inner {
+        height: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &_title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.2;
+        padding-bottom: 70px;
+    }
+
+    &_cards {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &_item {
+        width: 400px;
+        height: 305px;
+        margin: 20px;
+        padding: 25px;
+
+        background: #000;
+    }
+
+    &_words {
+        display: flex;
+        align-items: center;
+    }
+}
