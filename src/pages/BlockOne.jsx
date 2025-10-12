@@ -27,6 +27,13 @@ const BlockOne = () => {
                         <img src="src/assets/students.png" alt="" />
                     </div>
                 </div>
+                <div className='blockOne_middle'>
+                    <p>Мы продвигаем науку и инженерное дело
+                        в Кыргызстане, вдохновляя школьников раскрывать свой потенциал</p>
+                </div>
+                <div className="blockOne_footer">
+                    <img src="src/assets/lady.png" alt="" />
+                </div>
             </div>
         </div>
     );
