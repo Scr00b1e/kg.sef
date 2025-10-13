@@ -31,6 +31,24 @@
         line-height: 1.6;
         margin-bottom: 50px;
     }
+
+    &_info {
+        margin: 35px 0 0;
+        padding: 20px;
+
+        width: 100%;
+        max-width: 735px;
+
+        border: 3px solid rgba(0, 122, 253, 1);
+        border-radius: 16px;
+        color: rgba(246, 246, 246, 1);
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 160%;
+        }
+    }
 }
 
 .ageGroup {
@@ -150,6 +168,62 @@
             width: 100%;
             height: 100%;
             max-height: 400px;
+        }
+    }
+}
+
+.awards {
+    width: 100%;
+
+    &_title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    &_subtitle {
+        margin: 20px 0 0;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: end;
+    }
+
+    &_inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 70px 0 50px;
+        background: rgba(1, 102, 212, 1);
+    }
+
+    &_container {
+        width: 100%;
+        max-width: 1240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item {
+        width: 364px;
+        height: 296px;
+        margin: 0 30px;
+        padding: 10px 20px;
+        background: rgba(0, 122, 253, 1);
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        img {
+            width: 207px;
+            height: 207px;
         }
     }
 }

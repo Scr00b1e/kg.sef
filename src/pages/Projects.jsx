@@ -63,7 +63,29 @@ const Projects = () => {
                 </div>
                 <img src="src/assets/Vector.png" alt="" className='img' />
                 <div className="awards">
-
+                    <h1 className='awards_title'>Специальные награды</h1>
+                    <div className="awards_inner">
+                        <div className="awards_container">
+                            <div className="item">
+                                <h1>Лучшая девушка-учёный</h1>
+                                <img src="src/assets/girl.png" alt="" />
+                            </div>
+                            <div className="item">
+                                <h1>Лучший проект по устойчивому развитию</h1>
+                                <img src="src/assets/graph.png" alt="" />
+                            </div>
+                            <div className="item">
+                                <h1>Самый инновационный проект</h1>
+                                <img src="src/assets/idea.png" alt="" />
+                            </div>
+                        </div>
+                        <p className="awards_subtitle">И много других наград</p>
+                    </div>
+                </div>
+                <div className="projects_info">
+                    <span>
+                        Мы приветствуем все проекты, которые соответствуют научной методологии и демонстрируют креативность, оригинальность и навыки решения проблем.
+                    </span>
                 </div>
             </div>
         </div>
