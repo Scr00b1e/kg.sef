@@ -60,6 +60,9 @@ const Projects = () => {
                             <img src="src/assets/field3.png" alt="" />
                         </div>
                     </div>
+                    <img src="src/assets/Topology-1.png" alt="" className="topology1" />
+                    <img src="src/assets/Topology-2.png" alt="" className="topology2" />
+                    <img src="src/assets/Topology-3.png" alt="" className="topology3" />
                 </div>
                 <img src="src/assets/Vector.png" alt="" className='img' />
                 <div className="awards">
@@ -88,6 +91,8 @@ const Projects = () => {
                     </span>
                 </div>
             </div>
+            <img src="src/assets/frame1.png" alt="" className="frame1" />
+            <img src="src/assets/frame2.png" alt="" className="frame2" />
         </div>
     );
 };

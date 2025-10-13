@@ -1,4 +1,5 @@
 .projects {
+    position: relative;
     width: 100%;
     padding: 70px 0 50px;
     background: #0B3360;
@@ -226,4 +227,40 @@
             height: 207px;
         }
     }
+}
+
+// background images
+.frame1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.frame2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.topology1 {
+    position: absolute;
+    top: 1550px;
+    right: 0;
+    z-index: 0;
+}
+
+.topology2 {
+    position: absolute;
+    top: 850px;
+    right: 0;
+    z-index: 0;
+}
+
+.topology3 {
+    position: absolute;
+    top: 1010px;
+    left: 0;
+    z-index: 0;
 }
