@@ -10,6 +10,11 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
+
+        .img {
+            width: 100%;
+            margin: 50px 0;
+        }
     }
 
     &_title {
@@ -25,5 +30,101 @@
         font-size: 16px;
         line-height: 1.6;
         margin-bottom: 50px;
+    }
+}
+
+.ageGroup {
+
+    &_title {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    .groups {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 40px 80px;
+
+        border-radius: 15px;
+        background: #0166D4;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) inset;
+
+        h1 {
+            // font-size: 20px;
+            font-weight: 500;
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+.majors {
+    width: 100%;
+    max-width: 1240px;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    span {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .groups {
+        margin: 30px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 20px 40px 40px;
+
+        border-radius: 15px;
+        background: #0166D4;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) inset;
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
     }
 }
