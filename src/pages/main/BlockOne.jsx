@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/blockOne.scss';
+import '../../styles/blockOne.scss';
 
 const BlockOne = () => {
     return (

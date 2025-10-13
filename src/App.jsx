@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.scss'
 import Header from './components/Header'
-import Home from './pages/Home'
-import BlockOne from './pages/BlockOne'
-import InfoOne from './pages/InfoOne'
-import Projects from './pages/Projects'
+import Home from './pages/main/Home'
+import BlockOne from './pages/main/BlockOne'
+import InfoOne from './pages/main/InfoOne'
+import Projects from './pages/main/Projects'
 
 function App() {
 

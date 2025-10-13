@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/infoOne.scss';
+import '../../styles/infoOne.scss';
 
 const InfoOne = () => {
     return (
