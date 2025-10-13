@@ -1,0 +1,29 @@
+.projects {
+    width: 100%;
+    padding: 70px 0 50px;
+    background: #0B3360;
+
+    &_inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    &_title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    &_subtitle {
+        width: 100%;
+        max-width: 654px;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 50px;
+    }
+}

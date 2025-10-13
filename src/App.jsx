@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import BlockOne from './pages/BlockOne'
 import InfoOne from './pages/InfoOne'
+import Projects from './pages/Projects'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <div className="infoOne_secton">
             <InfoOne />
           </div>
+          <Projects />
         </div>
 
       </div>
