@@ -46,20 +46,24 @@ const Projects = () => {
                     </div>
                     <p>Остальные направления</p>
                     <div className="groups">
-                        <div className="items">
+                        <div className="subitems">
                             <h1>Экология и социальные науки</h1>
                             <img src="src/assets/eco.png" alt="" />
                         </div>
-                        <div className="items">
+                        <div className="subitems">
                             <h1>Междисциплинарные проекты</h1>
                             <img src="src/assets/field2.png" alt="" />
                         </div>
-                        <div className="items">
+                        <div className="subitems">
                             <h1>Инновационные и креативные
                                 исследования</h1>
                             <img src="src/assets/field3.png" alt="" />
                         </div>
                     </div>
+                </div>
+                <img src="src/assets/Vector.png" alt="" className='img' />
+                <div className="awards">
+
                 </div>
             </div>
         </div>
