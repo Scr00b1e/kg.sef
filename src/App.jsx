@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.scss'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './pages/main/Home'
 import BlockOne from './pages/main/BlockOne'
 import InfoOne from './pages/main/InfoOne'
@@ -31,7 +32,8 @@ function App() {
           <Sponsors />
           <FAQ />
         </div>
-
+        
+        <Footer />
       </div>
     </>
   )
