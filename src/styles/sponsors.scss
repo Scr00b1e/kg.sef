@@ -1,4 +1,61 @@
 .sponsors {
+    position: relative;
     width: 100%;
     background: #ECFBFF;
+    color: #000;
+    z-index: 1000;
+
+    &_looper {
+        position: absolute;
+        top: -150px;
+        left: 0;
+        z-index: 0;
+    }
+
+    &_content {
+        width: 100%;
+        padding: 80px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &_title {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &_text {
+        max-width: 690px;
+        margin: 15px 0 30px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    &_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &_item {
+        width: 295px;
+        height: 149px;
+        margin: 10px;
+        padding: 15px;
+
+        border-radius: 15px;
+        background: rgba(255, 255, 254, 1);
+        box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.15);
+    
+        img {
+            width: 105px;
+            height: 122px;
+        }
+    }
 }

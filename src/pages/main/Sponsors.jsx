@@ -7,21 +7,38 @@ const Sponsors = () => {
             <div className="container">
                 <div className='sponsors_content'>
                     <div className="sponsors_words">
-                        <h1 className='sponsors_title'>Новости</h1>
-                        <p className='sponsors_text'>Следите за последними объявлениями, дедлайнами и событиями KG.SEF. 
-В нашем Instagram и Telegram вы найдете новости о дедлайнах, мастер-классах, интервью с участниками
-и специальные мероприятия.</p>
+                        <h1 className='sponsors_title'>Спонсоры и Партнёры</h1>
+                        <p className='sponsors_text'>Благодарим наших партнёров за поддержку науки и инженерии в Кыргызстане. Благодаря  им участники могут исследовать, создавать инновации и представлять свои проекты на  KG.SEF</p>
                     </div>
-                    <div className="sponsors_links">
+                    <div className="sponsors_cards">
                         <div className="sponsors_item">
-                            <h2>Telegram</h2>
+                            <img src="src/assets/auca.png" alt="" />
                         </div>
                         <div className="sponsors_item">
-                            <h2>Instagram</h2>
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
+                        </div>
+                        <div className="sponsors_item">
+                            <img src="src/assets/auca.png" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
+            <img src="src/assets/looper-3.png" alt="" className='sponsors_looper'/>
         </div>
     );
 };
