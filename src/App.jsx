@@ -7,6 +7,7 @@ import InfoOne from './pages/main/InfoOne'
 import Projects from './pages/main/Projects'
 import News from './pages/main/News'
 import Sponsors from './pages/main/Sponsors'
+import FAQ from './pages/main/FAQ'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Projects />
           <News />
           <Sponsors />
+          <FAQ />
         </div>
 
       </div>

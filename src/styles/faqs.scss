@@ -1,0 +1,69 @@
+.faqs {
+    width: 100%;
+    gap: 10px;
+    opacity: 1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 64px 100px;
+    
+    background: rgba(11, 51, 96, 1);
+
+    &_title {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 48px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    &_cards {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px
+    }
+
+    &_item {
+        min-width: 270px;
+    }
+
+    &_text {
+        width: 253;
+        height: 50;
+        gap: 10px;
+        opacity: 1;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding-top: 12px;
+        padding-right: 24px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        background: rgba(0, 146, 255, 1);
+        text-align: center;
+
+        h2 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0%;
+        }
+    }
+
+    &_accordion {
+        width: 253;
+        height: 26;
+        opacity: 1;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        background: rgba(237, 179, 5, 1);
+        text-align: center;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
