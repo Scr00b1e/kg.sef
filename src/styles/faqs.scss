@@ -53,6 +53,25 @@
         }
     }
 
+    &_opened {
+        display: none;
+        width: 253;
+        height: 46;
+        opacity: 1;
+        gap: 10px;
+        padding: 12px;
+        background: rgba(1, 102, 212, 1);
+
+        h2 {
+            max-width: 408px;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 14px;
+            line-height: 160%;
+            letter-spacing: 0%;
+        }
+    }
+
     &_accordion {
         width: 253;
         height: 26;

@@ -12,6 +12,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Кто может участвовать?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Старшеклассники 13–18 лет</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -19,6 +22,9 @@ const FAQ = () => {
                         <div className="faqs_item">
                             <div className="faqs_text">
                                 <h2>Сколько стоит участие?</h2>
+                            </div>
+                            <div className='faqs_opened'>
+                                <h2>Участие бесплатное</h2>
                             </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
@@ -28,6 +34,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Где и когда проходит финал?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Финал пройдёт в [город, место] [дата]</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -35,6 +44,9 @@ const FAQ = () => {
                         <div className="faqs_item">
                             <div className="faqs_text">
                                 <h2>Как выбираются победители?</h2>
+                            </div>
+                            <div className='faqs_opened'>
+                                <h2>Финал По оригинальности, научной  методологии и презентации в [город, место] [дата]</h2>
                             </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
@@ -44,6 +56,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Нужно ли знание английского?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Рекомендуется для будущего участия на ISEF</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -51,6 +66,9 @@ const FAQ = () => {
                         <div className="faqs_item">
                             <div className="faqs_text">
                                 <h2>Есть ли награды или стипендии?</h2>
+                            </div>
+                            <div className='faqs_opened'>
+                                <h2>Будут  специальные награды, а финалисты могут получить шанс поехать на ISEF</h2>
                             </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
@@ -60,6 +78,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Будут ли сертификаты для участников?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Да, все участники получат электронные  сертификаты</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -67,6 +88,9 @@ const FAQ = () => {
                         <div className="faqs_item">
                             <div className="faqs_text">
                                 <h2>Можно ли участвовать  командой или только индивидуально?</h2>
+                            </div>
+                            <div className='faqs_opened'>
+                                <h2> Разрешены  индивидуальные и командные проекты (до 3 участников в команде)</h2>
                             </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
@@ -76,6 +100,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Какие правила безопасности действуют?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Все проекты должны  соответствовать правилам безопасности SRC и ISEF</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -84,6 +111,9 @@ const FAQ = () => {
                             <div className="faqs_text">
                                 <h2>Можно ли подавать проекты онлайн?</h2>
                             </div>
+                            <div className='faqs_opened'>
+                                <h2>Да, регистрация и  подача проектов осуществляются через онлайн-форму</h2>
+                            </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
                             </div>
@@ -91,6 +121,9 @@ const FAQ = () => {
                         <div className="faqs_item">
                             <div className="faqs_text">
                                 <h2>Могут ли наставники помогать участникам?</h2>
+                            </div>
+                            <div className='faqs_opened'>
+                                <h2>Да, наставники могут  направлять, но основную работу должны выполнять сами участники</h2>
                             </div>
                             <div className='faqs_accordion'>
                                 <img src="src/assets/arrow.svg" alt="" />
