@@ -5,6 +5,7 @@ import Home from './pages/main/Home'
 import BlockOne from './pages/main/BlockOne'
 import InfoOne from './pages/main/InfoOne'
 import Projects from './pages/main/Projects'
+import News from './pages/main/News'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <InfoOne />
           </div>
           <Projects />
+          <News />
         </div>
 
       </div>
