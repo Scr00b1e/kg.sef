@@ -6,6 +6,7 @@ import BlockOne from './pages/main/BlockOne'
 import InfoOne from './pages/main/InfoOne'
 import Projects from './pages/main/Projects'
 import News from './pages/main/News'
+import Sponsors from './pages/main/Sponsors'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           </div>
           <Projects />
           <News />
+          <Sponsors />
         </div>
 
       </div>
