@@ -8,10 +8,30 @@ const Footer = () => {
                 <div className='footer_content'>
                     <h1>KG.SEF img</h1>
                     <div className="footer_contacts">
-                        <h1>Контактная информация:</h1>
+                        <h1 className='footer_title'>Контактная информация:</h1>
+                        <div className="footer_contactsOne">
+                            <div className="footer_info">
+                                <p>E-mail: </p><span>info.kgsef.org@gmail.com</span>
+                            </div>
+                            <div className="footer_info">
+                                <p>Соцсети:</p>
+                                <div>
+                                    <img src="src/assets/instagram.svg" alt="" />
+                                    <img src="src/assets/tg.svg" alt="" />
+                                    <img src="src/assets/uim_whatsapp.svg" alt="" />
+                                </div>
+                            </div>
+                            <div className="footer_info">
+                                <p>Телефон: </p><span>+996 778023040</span>
+                            </div>
+                        </div>
                     </div>
                     <div className="footer_support">
-
+                        <h1 className='footer_title'>Форма обратной связи</h1>
+                        <div className="footer_link">
+                            <p>Заполните форму ниже, чтобы  отправить нам сообщение напрямую</p>
+                            <a href="https://forms.gle/abcd1234EfGh5678" target='_blank'>https://forms.gle/abcd1234EfGh5678</a>
+                        </div>
                     </div>
                 </div>
             </div>
