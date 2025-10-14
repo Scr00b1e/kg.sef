@@ -1,11 +1,12 @@
 .faqs {
+    position: relative;
     width: 100%;
     gap: 10px;
     opacity: 1;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     padding: 64px 100px;
-    
+
     background: rgba(11, 51, 96, 1);
 
     &_title {
@@ -65,5 +66,27 @@
             width: 24px;
             height: 24px;
         }
+    }
+
+    &_1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+        width: 180px;
+        height: 180px;
+        opacity: 0.8;
+    }
+
+    &_2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+
+        width: 180px;
+        height: 180px;
+        opacity: 0.8;
     }
 }
