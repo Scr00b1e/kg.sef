@@ -1,13 +1,12 @@
-import { Link } from 'react-router-dom'
 import '../styles/header.scss'
 
 const Header = () => {
     return (
         <div className='header'>
             <div className='container'>
-                <div className='header-content'>
+                <div className='header_content'>
                     <h1>KG.SEF img</h1>
-                    <ul className='header-content'>
+                    <ul className='header_content'>
                         <li>Главная</li>
                         <li>О нас</li>
                         <li>Проекты</li>
@@ -15,7 +14,8 @@ const Header = () => {
                         <li>Партнеры</li>
                         <li>Контакты</li>
                     </ul>
-                    <ul className='header-content'>
+                    <button className='home_btn'>Участвовать</button>
+                    <ul className='header_content'>
                         <li>Правила и Регламент</li>
                         <li>FAQ</li>
                     </ul>
