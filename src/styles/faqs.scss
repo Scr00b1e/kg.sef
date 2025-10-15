@@ -54,7 +54,6 @@
     }
 
     &_opened {
-        display: none;
         width: 253;
         height: 46;
         opacity: 1;
@@ -107,5 +106,9 @@
         width: 180px;
         height: 180px;
         opacity: 0.8;
+    }
+
+    .displayNone {
+    display: none;
     }
 }
