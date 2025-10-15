@@ -25,12 +25,6 @@ const FAQ = () => {
         });
     }
 
-
-
-    React.useEffect(() => {
-
-    }, [])
-
     return (
         <div className='faqs'>
             <div className="container">
@@ -46,7 +40,7 @@ const FAQ = () => {
                                     <h2>{item.answer}</h2>
                                 </div>
                                 <div className='faqs_accordion' onClick={() => onClickOpen(index)}>
-                                    <img src="src/assets/arrow.svg" alt="" />
+                                    <img src="src/assets/arrow.svg" alt="" className={`faqs_arrow ${opened[index] ? '' : 'is-open'}`} />
                                 </div>
                             </div>
                         ))}

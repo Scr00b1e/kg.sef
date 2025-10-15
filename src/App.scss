@@ -1,3 +1,6 @@
+$bg-color: #ECFBFF;
+$white: #fff;
+
 .container {
   width: 100%;
   max-width: 1440px;
@@ -14,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #ECFBFF;
+  background: $bg-color;
 }
 
 .intro {
@@ -23,13 +26,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: $white;
 }
 
 .info_section {
   position: relative;
   width: 100%;
-  background: #ECFBFF;
+  background: $bg-color;
 }
 
 .infoOne_secton {
@@ -41,5 +44,5 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: $white;
 }
