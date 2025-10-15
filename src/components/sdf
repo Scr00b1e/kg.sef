@@ -1,8 +1,4 @@
-import React from 'react';
-import '../../styles/faqs.scss';
-
-const FAQ = () => {
-    const faqItems = [
+const faqItems = [
         { question: "Кто может участвовать?", answer: "Старшеклассники 13–18 лет" },
         { question: "Сколько стоит участие?", answer: "Участие бесплатное" },
         { question: "Где и когда проходит финал?", answer: "Финал пройдёт в [город, место] [дата]" },
@@ -16,47 +12,22 @@ const FAQ = () => {
         { question: "Могут ли наставники помогать участникам?", answer: "Да, наставники могут  направлять, но основную работу должны выполнять сами участники" },
     ];
 
-    const [opened, setOpened] = React.useState(() => new Array(faqItems.length).fill(false));
-    const onClickOpen = (index) => {
-        setOpened(prev => {
-            const newState = [...prev]
-            newState[index] = !newState[index]
-            return newState
-        });
-    }
+const [opened, setOpened] = React.useState(null);
 
+const onClickOpen = (index) => {
+    setOpened(prev => (prev === index ? null : index));
+}
 
-
-    React.useEffect(() => {
-
-    }, [])
-
-    return (
-        <div className='faqs'>
-            <div className="container">
-                <div className='faqs_content'>
-                    <h1 className='faqs_title'>Часто задаваемые вопросы</h1>
-                    <div className="faqs_cards">
-                        {faqItems.map((item, index) => (
+{faqItems.map((item, index) => (
                             <div className="faqs_item" key={index}>
                                 <div className="faqs_text">
-                                    <h2>{item.question}</h2>
+                                    {item.question}
                                 </div>
-                                <div className={`faqs_opened ${opened[index] ? '' : 'displayNone'}`}>
-                                    <h2>{item.answer}</h2>
+                                <div className={`faqs_opened ${opened ? '' : 'displayNone'}`}>
+                                    {item.answer}
                                 </div>
-                                <div className='faqs_accordion' onClick={() => onClickOpen(index)}>
+                                <div className="faqs_accordion" onClick={() => onClickOpen(index)}>
                                     <img src="src/assets/arrow.svg" alt="" />
                                 </div>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </div>
-            <img src="src/assets/40.png" alt="" className='faqs_1' />
-            <img src="src/assets/40.png" alt="" className='faqs_2' />
-        </div>
-    );
-};
-
-export default FAQ;
