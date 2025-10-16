@@ -1,3 +1,7 @@
+$small: 768px;
+$medium: 1024px;
+$large: 1366px;
+
 .blockOne {
     min-height: 575px;
     width: 100%;
@@ -25,11 +29,27 @@
         z-index: 1;
 
         transform: translateY(-450px);
+
+        @media (max-width: 1245px) {
+            transform: translateY(-400px);
+        }
+
+        @media (max-width: $medium) {
+            padding: 25px 20px 40px;
+        }
     }
 
     &_info {
         width: 100%;
         max-width: 610px;
+
+        @media (max-width: 1245px) {
+            max-width: 550px;
+        }
+
+        @media (max-width: $medium) {
+            max-width: 450px;
+        }
     }
 
     &_title {
@@ -37,17 +57,33 @@
         font-size: 32px;
         line-height: 1.2;
         margin: 20px 0;
+        
+        @media (max-width: 1245px) {
+            font-size: 26px;
+        }
+
+        @media (max-width: $medium) {
+            font-size: 24px;
+        }
     }
 
     &_text {
         font-size: 16px;
         font-weight: 400;
         margin-bottom: 20px;
+
+        @media (max-width: 1245px) {
+            font-size: 15px;
+        }
     }
 
     &_numbers {
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: $medium) {
+            display: block;
+        }
     }
 
     &_numberOne {
@@ -57,6 +93,14 @@
             font-size: 95px;
             font-weight: 400;
             color: rgba(0, 0, 0, 0.16);
+        
+            @media (max-width: 1245px) {
+                font-size: 75px;
+            }
+
+            @media (max-width: $medium) {
+                font-size: 65px;
+            }
         }
 
         p {
@@ -84,6 +128,20 @@
 
         &:hover {
             border: 3px solid #000;
+        }
+    }
+
+    &_img {
+        img {
+            @media (max-width: 1245px) {
+                width: 450px;
+                height: 450px;
+            }
+
+            @media (max-width: $medium) {
+                width: 350px;
+                height: 350px;
+            }
         }
     }
 

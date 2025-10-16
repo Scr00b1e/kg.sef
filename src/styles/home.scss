@@ -1,3 +1,7 @@
+$small: 768px;
+$medium: 1144px;
+$large: 1366px;
+
 .home {
     margin: 200px 0 0;
     min-height: 1000px;
@@ -20,6 +24,14 @@
         max-width: 1030px;
         text-align: center;
         margin-bottom: 32px;
+
+        @media (max-width: $medium) {
+            max-width: 730px;
+        }
+
+        @media (max-width: $medium) {
+           max-width: 500px;
+        }
     }
 
     &_title {
@@ -27,6 +39,14 @@
         font-size: 50px;
         color: #fff;
         line-height: 1;
+
+        @media (max-width: $medium) {
+           font-size: 40px;
+        }
+
+        @media (max-width: $small) {
+           font-size: 20px;
+        }
     }
 
     &_text {
@@ -36,6 +56,10 @@
         font-size: 16px;
         text-align: center;
         line-height: 1.6;
+
+        @media (max-width: $small) {
+           font-size: 12px;
+        }
     }
 
     &_btn {
@@ -62,6 +86,10 @@
             transform: scale(0.96);
             background-color: #B0B0B0;
             box-shadow: 0 5px #7a7a7a;
+        }
+
+        @media (max-width: $small) {
+           font-size: 14px;
         }
 
         // &:hover {
