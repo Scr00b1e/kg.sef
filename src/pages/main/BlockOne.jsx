@@ -24,7 +24,7 @@ const BlockOne = () => {
                         <button className='blockOne_button'>Учавствовать</button>
                     </div>
                     <div className='blockOne_img'>
-                        <img src="src/assets/students.png" alt="" />
+                        <img src="../assets/students.png" alt="" />
                     </div>
                 </div>
                 <div className='blockOne_middle'>
