@@ -1,3 +1,7 @@
+$small: 768px;
+$medium: 1024px;
+$large: 1366px;
+
 .footer {
     width: 100%;
     padding: 32px 0;
@@ -7,12 +11,22 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: $medium) {
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
     }
 
     &_contacts {
         display: flex;
         justify-content: center;
         flex-direction: column;
+
+        @media (max-width: $medium) {
+            margin: 20px 0;
+        }
     }
 
     &_contactsOne {
@@ -22,6 +36,10 @@
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
+
+        @media (max-width: $medium) {
+            justify-content: center;
+        }
     }
 
     &_info {
@@ -59,6 +77,10 @@
         line-height: 140%;
         letter-spacing: 0%;
         text-align: center;
+
+        @media (max-width: $medium) {
+            margin-bottom: 22px;
+        }
     }
 
     &_link {
@@ -84,5 +106,13 @@
             text-decoration-skip-ink: auto;
             color: rgba(246, 246, 246, 1);
         }
+
+        @media (max-width: $medium) {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: $large) {
+        padding: 32px 10px;
     }
 }
