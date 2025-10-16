@@ -49,4 +49,8 @@ $large: 1366px;
   background-position: center;
   background-repeat: no-repeat;
   color: $white;
+
+  @media (max-width: 767px) {
+    min-height: 1200px;
+  }
 }
