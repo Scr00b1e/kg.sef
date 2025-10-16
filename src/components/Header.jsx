@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='container'>
-                <div className='header_content'>
-                    <h1>KG.SEF img</h1>
+                <div className='header_inner'>
+                    <h1>KG.SEF</h1>
                     <ul className='header_content'>
                         <li>Главная</li>
                         <li>О нас</li>
