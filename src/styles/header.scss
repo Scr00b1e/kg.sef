@@ -3,7 +3,7 @@ $medium: 1144px;
 $large: 1366px;
 
 .header {
-    position: sticky;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
@@ -16,7 +16,6 @@ $large: 1366px;
     background-color: #0166D4;
 
     &_inner {
-        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -66,6 +65,7 @@ $large: 1366px;
 
 .header_burger {
     display: none;
+    z-index: 2;
 
     @media (max-width: $medium) {
         display: block;
@@ -121,7 +121,8 @@ $large: 1366px;
     transform: translateX(0);
 }
 .menu-list {
-    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 
     .menu-item {
         display: block;
@@ -138,15 +139,19 @@ $large: 1366px;
     @media (max-width: $medium) {
         top: 0;
         right: 0;
+        z-index: 0;
         position: absolute;
         display: grid;
         gap: 12px;
-        padding: 42px 0;
+        padding: 82px 0 12px;
         margin: 0;
         background: orange;
         list-style-type: none;
-        transform: translateX(-100%);
         transition: .3s;
         width: 200px;
     }
+}
+
+.opacityShow {
+    opacity: 1;
 }

@@ -88,6 +88,10 @@ $large: 1366px;
             font-size: 16px;
             line-height: 1.6;
             color: #F6F6F6;
+
+            @media (max-width: 767px) {
+                font-size: 12px;
+            }
         }
 
         @media (max-width: 1443px) {
@@ -127,6 +131,17 @@ $large: 1366px;
 
             @media (max-width: 1285px) {
                 font-size: 18px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+
+        img {
+            @media (max-width: 767px) {
+                width: 30px;
+                height: 30px;
             }
         }
 

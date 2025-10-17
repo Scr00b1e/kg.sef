@@ -1,6 +1,12 @@
+import React from 'react';
 import '../styles/header.scss'
 
 const Header = () => {
+    const [opened, setOpened] = React.useState(false);
+    const onClickOpen = () => {
+        setOpened(!opened);
+    }
+
     return (
         <div className='header'>
             <div className='container'>
@@ -19,11 +25,11 @@ const Header = () => {
                         <li>Правила и Регламент</li>
                         <li>FAQ</li>
                     </ul>
-                    <div className="header_burger">
-                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox"/>
-                        <label class="burger" for="burger-checkbox"></label>
+                    <div className="header_burger" onClick={onClickOpen}>
+                        <input type="checkbox" id="burger-checkbox" className="burger-checkbox" onChange={(e) => setOpened(e.target.checked)}/>
+                        <label className="burger" htmlFor="burger-checkbox"></label>
                     </div>
-                    <div className='menu-list'>
+                    <div className={`menu-list ${opened ? 'opacityShow' : ''}`}>
                         <ul >
                             <li className='menu-item'>Главная</li>
                             <li className='menu-item'>О нас</li>
