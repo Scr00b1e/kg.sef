@@ -19,6 +19,10 @@ const Header = () => {
                         <li>Правила и Регламент</li>
                         <li>FAQ</li>
                     </ul>
+                    <div className="header_burger">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox"/>
+                        <label class="burger" for="burger-checkbox"></label>
+                    </div>
                 </div>
             </div>
         </div>
