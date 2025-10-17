@@ -121,6 +121,7 @@ $large: 1366px;
     transform: translateX(0);
 }
 .menu-list {
+    display: none;
     opacity: 0;
     transition: opacity 0.3s ease;
 
@@ -137,6 +138,7 @@ $large: 1366px;
     }
 
     @media (max-width: $medium) {
+        display: grid;
         top: 0;
         right: 0;
         z-index: 0;
