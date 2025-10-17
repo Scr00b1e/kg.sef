@@ -16,6 +16,7 @@ $large: 1366px;
     background-color: #0166D4;
 
     &_inner {
+        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -114,5 +115,38 @@ $large: 1366px;
             transform: rotate(-45deg);
             transition: bottom .3s, transform .3s .15s;
         }
+    }
+}
+.burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+}
+.menu-list {
+    display: none;
+
+    .menu-item {
+        display: block;
+        padding: 8px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .menu-item:hover {
+        background: rgba(255,255,255,.2)
+    }
+
+    @media (max-width: $medium) {
+        top: 0;
+        right: 0;
+        position: absolute;
+        display: grid;
+        gap: 12px;
+        padding: 42px 0;
+        margin: 0;
+        background: orange;
+        list-style-type: none;
+        transform: translateX(-100%);
+        transition: .3s;
+        width: 200px;
     }
 }

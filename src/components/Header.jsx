@@ -23,6 +23,21 @@ const Header = () => {
                         <input type="checkbox" id="burger-checkbox" class="burger-checkbox"/>
                         <label class="burger" for="burger-checkbox"></label>
                     </div>
+                    <div className='menu-list'>
+                        <ul >
+                            <li className='menu-item'>Главная</li>
+                            <li className='menu-item'>О нас</li>
+                            <li className='menu-item'>Проекты</li>
+                            <li className='menu-item'>Новости</li>
+                            <li className='menu-item'>Партнеры</li>
+                            <li className='menu-item'>Контакты</li>
+                        </ul>
+                        {/* <button className='home_btn'>Участвовать</button> */}
+                        <ul >
+                            <li className='menu-item'>Правила и Регламент</li>
+                            <li className='menu-item'>FAQ</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
