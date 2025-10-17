@@ -1,3 +1,7 @@
+$small: 768px;
+$medium: 1024px;
+$large: 1366px;
+
 .projects {
     position: relative;
     width: 100%;
@@ -23,6 +27,10 @@
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 20px;
+
+        @media (max-width: $large) {
+            font-size: 42px;
+        }
     }
 
     &_subtitle {
@@ -58,12 +66,24 @@
         font-size: 32px;
         font-weight: 600;
         margin-bottom: 25px;
+
+        @media (max-width: $large) {
+            font-size: 28px;
+        }
     }
 
     .groups {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media (max-width: 1300px) {
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: $small) {
+            justify-content: center;
+        }
     }
 
     .items {
@@ -80,6 +100,10 @@
         h1 {
             // font-size: 20px;
             font-weight: 500;
+
+            @media (max-width: $large) {
+                font-size: 20px;
+            }
         }
 
         span {
@@ -104,17 +128,29 @@
         font-size: 48px;
         font-weight: 700;
         line-height: 1.2;
+
+        @media (max-width: $large) {
+            font-size: 36px;
+        }
     }
 
     span {
         font-size: 32px;
         font-weight: 600;
         line-height: 1.2;
+
+        @media (max-width: $large) {
+            font-size: 26px;
+        }
     }
 
     p {
         font-size: 32px;
         font-weight: 600;
+
+        @media (max-width: $large) {
+            font-size: 26px;
+        }
     }
 
     .groups {
@@ -122,6 +158,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media (max-width: 1300px) {
+            display: block;
+        }
     }
 
     .items {
@@ -140,6 +180,11 @@
             margin-bottom: 20px;
             font-size: 24px;
             font-weight: 500;
+
+            @media (max-width: $large) {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
         }
 
         img {
@@ -160,17 +205,35 @@
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) inset;
         z-index: 100;
 
+        @media (max-width: $large) {
+            max-height: 400px;
+        }
+
         h1 {
             margin-bottom: 20px;
             font-size: 24px;
             font-weight: 500;
             max-width: 365px;
+
+            @media (max-width: $large) {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
         }
 
         img {
             width: 100%;
             height: 100%;
             max-height: 400px;
+
+            @media (max-width: $large) {
+                max-height: 380px;
+            }
+
+            @media (max-width: 1300px) {
+                width: 200px;
+                height: 200px;
+            }
         }
     }
 }
@@ -183,13 +246,16 @@
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 30px;
+
+        @media (max-width: $large) {
+            font-size: 38px;
+        }
     }
 
     &_subtitle {
         margin: 20px 0 0;
         font-size: 16px;
         font-weight: 400;
-        text-align: end;
     }
 
     &_inner {
@@ -198,8 +264,14 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        padding: 70px 0 50px;
+        padding: 70px 20px 50px;
         background: rgba(1, 102, 212, 1);
+
+        @media (max-width: 1300px) {
+            display: block;
+            text-align: center;
+            padding: 70px 25px 50px;
+        }
     }
 
     &_container {
@@ -208,6 +280,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (max-width: 1300px) {
+            flex-wrap: wrap;
+        }
     }
 
     .item {
@@ -222,11 +298,21 @@
         h1 {
             font-size: 24px;
             font-weight: 500;
+
+            @media (max-width: 1300px) {
+                font-size: 20px;
+                margin: 0 3px;
+            }
         }
 
         img {
             width: 207px;
             height: 207px;
+        }
+
+        @media (max-width: 1300px) {
+            width: 100%;
+            margin: 10px 0;
         }
     }
 }
@@ -237,6 +323,10 @@
     top: 0;
     left: 0;
     z-index: 1;
+
+    @media (max-width: $large) {
+        opacity: 0;
+    }
 }
 
 .frame2 {
@@ -244,6 +334,10 @@
     top: 0;
     right: 0;
     z-index: 1;
+
+    @media (max-width: $large) {
+        opacity: 0;
+    }
 }
 
 .topology1 {
@@ -251,6 +345,10 @@
     top: 1550px;
     right: 0;
     z-index: 0;
+
+    @media (max-width: 1364px) {
+        opacity: 0;
+    }
 }
 
 .topology2 {
@@ -258,6 +356,10 @@
     top: 850px;
     right: 0;
     z-index: 0;
+
+    @media (max-width: 1364px) {
+        opacity: 0;
+    }
 }
 
 .topology3 {
@@ -265,4 +367,8 @@
     top: 1010px;
     left: 0;
     z-index: 0;
+
+    @media (max-width: 1364px) {
+        opacity: 0;
+    }
 }
