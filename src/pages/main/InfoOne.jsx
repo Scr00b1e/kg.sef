@@ -11,7 +11,7 @@ const InfoOne = () => {
                         <div className="infoOne_cards">
                             <div className="infoOne_item">
                                 <div className="infoOne_words">
-                                    <img src="src/assets/neurology.png" alt="" />
+                                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/neurology.png?raw=true" alt="" />
                                     <h3>Стратегия 2025–2027</h3>
                                 </div>
                                 <p>KG.SEF стремится стать ведущей национальной научной ярмаркой
@@ -20,7 +20,7 @@ const InfoOne = () => {
                             </div>
                             <div className="infoOne_item">
                                 <div className="infoOne_words">
-                                    <img src="src/assets/biotech.png" alt="" />
+                                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/biotech.png?raw=true" alt="" />
                                     <h3>Научный комитет </h3>
                                 </div>
                                 <p>SRC обеспечивает соответствие всех проектов этическим, безопасным
@@ -29,7 +29,7 @@ const InfoOne = () => {
                             </div>
                             <div className="infoOne_item">
                                 <div className="infoOne_words">
-                                    <img src="src/assets/text_compare.png" alt="" />
+                                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/text_compare.png?raw=true" alt="" />
                                     <h3>История</h3>
                                 </div>
                                 <p>KG.SEF был создан, чтобы дать кыргызским школьникам возможность участвовать
@@ -40,7 +40,7 @@ const InfoOne = () => {
                             </div>
                             <div className="infoOne_item">
                                 <div className="infoOne_words">
-                                    <img src="src/assets/handshake.png" alt="" />
+                                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/handshake.png?raw=true" alt="" />
                                     <h3>Команда</h3>
                                 </div>
                                 <p>Наша команда состоит из увлечённых педагогов, специалистов в области STEM
@@ -49,7 +49,7 @@ const InfoOne = () => {
                             </div>
                             <div className="infoOne_item">
                                 <div className="infoOne_words">
-                                    <img src="src/assets/location_searching.png" alt="" />
+                                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/location_searching.png?raw=true" alt="" />
                                     <h3>Цели</h3>
                                 </div>
                                 <p>Вдохновлять школьников к науке

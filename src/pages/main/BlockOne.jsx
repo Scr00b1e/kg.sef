@@ -21,10 +21,11 @@ const BlockOne = () => {
                                 <p>Участников участвующих в ярмарке</p>
                             </div>
                         </div>
-                        <button className='blockOne_button'>Учавствовать</button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKXhQ_fuOtDiWIXy6YphGiCeumCHQjgi2LkJytsmCzkTI-bw/viewform?usp=header"
+                    target='_blank' className='home_link'><button className='blockOne_button'>Участвовать</button></a>
                     </div>
                     <div className='blockOne_img'>
-                        <img src="../assets/students.png" alt="" />
+                        <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/students.png?raw=true" alt="" />
                     </div>
                 </div>
                 <div className='blockOne_middle'>
@@ -32,7 +33,7 @@ const BlockOne = () => {
                         в Кыргызстане, вдохновляя школьников раскрывать свой потенциал</p>
                 </div>
                 <div className="blockOne_footer">
-                    <img src="src/assets/lady.png" alt="" />
+                    <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/lady.png?raw=true" alt="" />
                 </div>
             </div>
         </div>

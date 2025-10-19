@@ -96,4 +96,12 @@ $large: 1366px;
         //     background-color: darken(#FDCC12, 5%);
         // }
     }
+
+    &_link {
+        color: #262626;
+
+        &:hover {
+            color: #262626;
+        }
+    }
 }

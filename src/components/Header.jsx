@@ -17,10 +17,11 @@ const Header = () => {
                         <li>О нас</li>
                         <li>Проекты</li>
                         <li>Новости</li>
-                        <li>Партнеры</li>
+                        {/* <li>Партнеры</li> */}
                         <li>Контакты</li>
                     </ul>
-                    <button className='home_btn'>Участвовать</button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKXhQ_fuOtDiWIXy6YphGiCeumCHQjgi2LkJytsmCzkTI-bw/viewform?usp=header"
+                    target='_blank' className='home_link'><button className='home_btn'>Участвовать</button></a>
                     <ul className='header_content'>
                         <li>Правила и Регламент</li>
                         <li>FAQ</li>
@@ -35,7 +36,7 @@ const Header = () => {
                             <li className='menu-item'>О нас</li>
                             <li className='menu-item'>Проекты</li>
                             <li className='menu-item'>Новости</li>
-                            <li className='menu-item'>Партнеры</li>
+                            {/* <li className='menu-item'>Партнеры</li> */}
                             <li className='menu-item'>Контакты</li>
                         </ul>
                         {/* <button className='home_btn'>Участвовать</button> */}
