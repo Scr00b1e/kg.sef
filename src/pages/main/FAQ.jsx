@@ -40,15 +40,15 @@ const FAQ = () => {
                                     <h2>{item.answer}</h2>
                                 </div>
                                 <div className='faqs_accordion' onClick={() => onClickOpen(index)}>
-                                    <img src="src/assets/arrow.svg" alt="" className={`faqs_arrow ${opened[index] ? '' : 'is-open'}`} />
+                                    <img src="https://raw.githubusercontent.com/Scr00b1e/kg.sef/54677de17c7ba5bf5c44aa62df10bd0aa84c8d50/src/assets/arrow.svg" alt="" className={`faqs_arrow ${opened[index] ? '' : 'is-open'}`} />
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
-            <img src="src/assets/40.png" alt="" className='faqs_1' />
-            <img src="src/assets/40.png" alt="" className='faqs_2' />
+            <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/40.png?raw=true" alt="" className='faqs_1' />
+            <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/40.png?raw=true" alt="" className='faqs_2' />
         </div>
     );
 };

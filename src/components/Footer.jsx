@@ -16,9 +16,10 @@ const Footer = () => {
                             <div className="footer_info">
                                 <p>Соцсети:</p>
                                 <div>
-                                    <img src="src/assets/instagram.svg" alt="" />
-                                    <img src="src/assets/tg.svg" alt="" />
-                                    <img src="src/assets/uim_whatsapp.svg" alt="" />
+                                    <a href="https://www.instagram.com/kyrgyzstansef?igsh=MTQyaTJiMG5nYXhoYQ==" target='_blank'>
+                                        <img src="https://raw.githubusercontent.com/Scr00b1e/kg.sef/54677de17c7ba5bf5c44aa62df10bd0aa84c8d50/src/assets/instagram.svg" alt="" />
+                                    </a>
+                                    <img src="https://raw.githubusercontent.com/Scr00b1e/kg.sef/54677de17c7ba5bf5c44aa62df10bd0aa84c8d50/src/assets/uim_whatsapp.svg" alt="" />
                                 </div>
                             </div>
                             <div className="footer_info">

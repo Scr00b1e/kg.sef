@@ -46,14 +46,23 @@ $large: 1366px;
         @media (max-width: $medium) {
             max-width: 520px;
         }
+
+        @media (max-width: $small) {
+            max-width: 350px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
     }
 
     &_links {
         width: 100%;
         max-width: 990px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
 
         @media (max-width: $medium) {
             flex-wrap: wrap;

@@ -20,7 +20,8 @@ const Header = () => {
                         <li>Партнеры</li>
                         <li>Контакты</li>
                     </ul>
-                    <button className='home_btn'>Участвовать</button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKXhQ_fuOtDiWIXy6YphGiCeumCHQjgi2LkJytsmCzkTI-bw/viewform?usp=header"
+                    target='_blank' className='home_link'><button className='home_btn'>Участвовать</button></a>
                     <ul className='header_content'>
                         <li>Правила и Регламент</li>
                         <li>FAQ</li>

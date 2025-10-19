@@ -29,7 +29,7 @@ function App() {
           </div>
           <Projects />
           <News />
-          <Sponsors />
+          {/* <Sponsors /> */}
           <FAQ />
         </div>
         
