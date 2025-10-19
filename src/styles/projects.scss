@@ -277,10 +277,11 @@ $large: 1366px;
 
     &_container {
         width: 100%;
-        max-width: 1240px;
+        max-width: 1340px;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
 
         @media (max-width: 1300px) {
             flex-wrap: wrap;
@@ -290,7 +291,7 @@ $large: 1366px;
     .item {
         width: 364px;
         height: 296px;
-        margin: 0 30px;
+        margin: 10px 30px;
         padding: 10px 20px;
         background: rgba(0, 122, 253, 1);
         box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
@@ -299,6 +300,8 @@ $large: 1366px;
         h1 {
             font-size: 24px;
             font-weight: 500;
+            margin-bottom: 10px;
+            line-height: 1.4;
 
             @media (max-width: 1300px) {
                 font-size: 20px;
@@ -306,10 +309,21 @@ $large: 1366px;
             }
         }
 
-        img {
-            width: 207px;
-            height: 207px;
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+
+            @media (max-width: 1300px) {
+                font-size: 14px;
+                margin: 0 3px;
+            }
         }
+
+        // img {
+        //     width: 207px;
+        //     height: 207px;
+        // }
 
         @media (max-width: 1300px) {
             width: 100%;

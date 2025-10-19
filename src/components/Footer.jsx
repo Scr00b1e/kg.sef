@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='container'>
                 <div className='footer_content'>
-                    <h1>KG.SEF img</h1>
+                    <h1>KG.SEF</h1>
                     <div className="footer_contacts">
                         <h1 className='footer_title'>Контактная информация:</h1>
                         <div className="footer_contactsOne">
