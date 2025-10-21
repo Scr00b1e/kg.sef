@@ -3,7 +3,7 @@ import '../../styles/infoOne.scss';
 
 const InfoOne = () => {
     return (
-        <div className='infoOne'>
+        <div className='infoOne' id='about_us'>
             <div className="infoOne_content">
                 <div className="container">
                     <div className="infoOne_inner">
