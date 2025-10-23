@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/faqs.scss';
 
-const FAQ = () => {
+const FAQ = React.forwardRef(function FAQ(_props, ref) {
     const faqItems = [
         // { question: "Кто может участвовать?", answer: "Старшеклассники 13–18 лет" },
         { question: "Сколько стоит участие?", answer: "Участие бесплатное" },
@@ -26,7 +26,7 @@ const FAQ = () => {
     }
 
     return (
-        <div className='faqs' id='faq'>
+        <div className='faqs' ref={ref}>
             <div className="container">
                 <div className='faqs_content'>
                     <h1 className='faqs_title'>Часто задаваемые вопросы</h1>
@@ -51,6 +51,6 @@ const FAQ = () => {
             <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/40.png?raw=true" alt="" className='faqs_2' />
         </div>
     );
-};
+});
 
 export default FAQ;

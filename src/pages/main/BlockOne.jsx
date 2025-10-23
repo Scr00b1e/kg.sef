@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../styles/blockOne.scss';
 
-const BlockOne = () => {
+const BlockOne = React.forwardRef(function BlockOne(_props, ref) {
     return (
         <div className="container">
             <div className='blockOne'>
-                <div className='blockOne_content'>
+                <div className='blockOne_content' ref={ref}>
                     <div className="blockOne_words">
                         <div className="blockOne_info">
                             <h1 className='blockOne_title'>Вдохновляем новое поколение ученых Кыргызстана</h1>
@@ -38,6 +38,6 @@ const BlockOne = () => {
             </div>
         </div>
     );
-};
+});
 
 export default BlockOne;

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../styles/home.scss';
 
-const Home = () => {
+const Home = React.forwardRef(function Home(_props, ref){
     return (
         <div className="container">
-            <div className='home'>
+            <div className='home' ref={ref}>
                 <div className='home_content'>
                     <div className="home_words">
                         <h1 className='home_title'>Кыргызстанская научно-инженерная ярмарка</h1>
@@ -16,6 +16,6 @@ const Home = () => {
             </div>
         </div>
     );
-};
+});
 
 export default Home;
