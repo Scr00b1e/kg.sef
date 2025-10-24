@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
+import React from 'react';
 import '../styles/footer.scss'
 
-const Footer = () => {
+const Footer = React.forwardRef(function Footer(_props, ref) {
     return (
-        <div className='footer' id='footer'>
+        <div className='footer' ref={ref}>
             <div className='container'>
                 <div className='footer_content'>
                     <h1>KG.SEF</h1>
@@ -38,6 +38,6 @@ const Footer = () => {
             </div>
         </div>
     )
-}
+})
 
 export default Footer

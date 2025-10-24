@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/projects.scss';
 
-const Projects = () => {
+const Projects = React.forwardRef(function Projects(_props, ref) {
     return (
         <div className='projects' id='projects'>
             <div className="projects_inner">
@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                 </div> */}
                 {/* <img src="src/assets/Vector.png" alt="" className='img' /> */}
-                <div className="majors">
+                <div className="majors" ref={ref}>
                     <h1>Основные направления</h1>
                     <span>STEM</span>
                     <div className="groups">
@@ -103,6 +103,6 @@ const Projects = () => {
             <img src="https://github.com/Scr00b1e/kg.sef/blob/master/src/assets/frame2.png?raw=true" alt="" className="frame2" />
         </div>
     );
-};
+});
 
 export default Projects;

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../styles/news.scss';
 
-const News = () => {
+const News = React.forwardRef(function News(_props, ref) {
     return (
-        <div className='news' id='news'>
+        <div className='news' ref={ref}>
             <div className="news_cover">
                 <div className="container">
                     <div className='news_content'>
@@ -28,6 +28,6 @@ const News = () => {
             </div>
         </div>
     );
-};
+});
 
 export default News;
